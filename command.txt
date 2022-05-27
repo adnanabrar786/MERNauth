@@ -1,0 +1,55 @@
+MERN authentication
+
+https://www.youtube.com/watch?v=scYojqjnHzI&list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU
+
+
+!!!!!!!!!!!!!!!!!!!!!!!         server        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+1) create server and npm Packages
+2) create mongoose atlas (optional hy ye ---> process.env.db)
+3) create usersSchema and  create users model
+4) create 4 condition for users   /auth path    in try/catch (registration in express js)
+5) | JWT Token, Cookies, Bcrypt,
+6)  login user (express js)
+7) auth (if user login so add customer otherwise do not do this)
+
+!!!!!!!!!!!!!!!!!!!!!!!         client        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+8) React Router  (Front-end)
+9) Regitration 
+10) Login (uses Credentials in frontend and backend to readable access token for Login)
+11) Loggedin check (in admin routes in expressjs) , AuthContext , logout ,
+     work in navbar , work in router , resolved issue url
+12)  customers , cutomersList , customersForm get and add data in ui and database
+13)
+14)
+
+
+  !!!!!!     server   !!!!!!
+
+npm init -y
+npm i express
+npm i nodemon
+npm i mongoose
+
+npm run dev
+npm i cokie-parser
+npm i cors
+npm i jsonwebtoken
+npm i bcrypt
+npm i cookie-parser
+
+
+  !!!!!!     client   !!!!!!
+
+  npx create-react-app client
+  npm i react-router-dom
+  npm i react-router
+  npm i axios
+
+
+
+
+
+!!!!!!!!!!!!!!!!!         issue    !!!!!!!!!!!!!!
+registration k badh direct login ho raha hy 
